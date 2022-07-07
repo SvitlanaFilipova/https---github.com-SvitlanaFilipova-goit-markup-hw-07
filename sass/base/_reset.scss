@@ -1,0 +1,25 @@
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.list,
+.nav__menu,
+.container__menu-connection,
+
+.proposition-list-general,
+.portfolio-button,
+.list-our-work,
+.list-our-team {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

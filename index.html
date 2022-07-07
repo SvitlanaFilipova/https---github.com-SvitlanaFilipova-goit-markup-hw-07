@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header-back">
+      <div class="container main">
+        <nav class="nav">
+          <a class="logo" href="index.html">
+            <span class="logo__logo-web">Web</span>
+            <span class="logo__logo-studio logo-studio--color-dark"
+              >Studio</span
+            ></a
+          >
+          <ul class="menu nav__menu">
+            <li class="menu__item">
+              <a class="menu__nav-li current" href="index.html">Студия</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__nav-li" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__nav-li" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="menu-connection container__menu-connection">
+          <li class="menu-connection__item">
+            <a class="menu-connection__link" href="mailto:info@devstudio.com">
+              <svg class="menu-connection__icon-mail">
+                <use
+                  href="./images/icomoon_final/symbol-defs.svg#icon-mail"
+                ></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="menu-connection__item header">
+            <a class="menu-connection__link" href="tel:+380961111111">
+              <svg class="menu-connection__icon-phone">
+                <use
+                  href="./images/icomoon_final/symbol-defs.svg#icon-phone"
+                ></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1 class="big-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="button-main-page" type="button" data-modal-open>
+            Заказать услугу
+          </button>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <h2 class="container__visually-hidden">Наши преимущества</h2>
+          <ul class="container__list-benefits list">
+            <li class="container__item">
+              <div class="container__benefits-div">
+                <svg class="container__benefits-image">
+                  <use
+                    href="./images/icomoon_final/symbol-defs.svg#icon-antenna-1"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="container__benefits-title">Внимание к деталям</h3>
+              <p class="container__benefits-description">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="container__item">
+              <div class="container__benefits-div">
+                <svg class="container__benefits-image">
+                  <use
+                    href="./images/icomoon_final/symbol-defs.svg#icon-clock-1"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="container__benefits-title">Пунктуальность</h3>
+              <p class="container__benefits-description">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="container__item">
+              <div class="container__benefits-div">
+                <svg class="container__benefits-image">
+                  <use
+                    href="./images/icomoon_final/symbol-defs.svg#icon-diagram-1"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="container__benefits-title">Планирование</h3>
+              <p class="container__benefits-description">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+
+            <li></li>
+            <li class="container__item">
+              <div class="container__benefits-div">
+                <svg class="container__benefits-image">
+                  <use
+                    href="./images/icomoon_final/symbol-defs.svg#icon-astronaut-1"
+                  ></use>
+                </svg>
+              </div>
+              <h3 class="container__benefits-title">Современные технологии</h3>
+              <p class="container__benefits-description">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section our-work">
+        <div class="container">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="list-our-work">
+            <li class="item work">
+              <img
+                src="./images/what_we_do/img1_work_progressive.jpg"
+                alt="написание кода"
+              />
+              <p class="context-our-work">Десктопные приложения</p>
+            </li>
+            <li class="item work">
+              <img
+                src="./images/what_we_do/img2_work_progressive.jpg"
+                alt="css"
+              />
+              <p class="context-our-work">Мобильные приложения</p>
+            </li>
+            <li class="item work">
+              <img
+                src="./images/what_we_do/img3_work_progressive.jpg"
+                alt="дизайн"
+              />
+              <p class="context-our-work">Дизайнерские решения</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section our-team-back">
+        <div class="container">
+          <h2 class="section-title">Наша команда</h2>
+
+          <ul class="list-our-team">
+            <li class="item-team">
+              <img
+                class="team-photo"
+                src="./images/team/img1_team.jpg"
+                alt="продакт-дизайнер"
+                width="270"
+                height="260"
+              />
+              <div class="team-h3-p">
+                <h3 class="team-names">Игорь Демьяненко</h3>
+                <p class="team-position">Product Designer</p>
+                <ul class="social-ul">
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon instagram">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon twitter">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-twitter"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon facebook">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon linkedin">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="item-team">
+              <img
+                src="./images/team/img2_team.jpg"
+                alt="фронтенд-девелопер"
+                width="270"
+                height="260"
+              />
+              <div class="team-h3-p">
+                <h3 class="team-names">Ольга Репина</h3>
+                <p class="team-position">Frontend Developer</p>
+                <ul class="social-ul">
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon instagram">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon twitter">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-twitter"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon facebook">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon linkedin">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="item-team">
+              <img
+                src="./images/team/img3_team.jpg"
+                alt="маркетолог"
+                width="270"
+                height="260"
+              />
+              <div class="team-h3-p">
+                <h3 class="team-names">Николай Тарасов</h3>
+                <p class="team-position">Marketing</p>
+                <ul class="social-ul">
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon instagram">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon twitter">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-twitter"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon facebook">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon linkedin">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="item-team">
+              <img
+                src="./images/team/img4_team.jpg"
+                alt="UI-дизайнер"
+                width="270"
+                height="260"
+              />
+              <div class="team-h3-p">
+                <h3 class="team-names">Михаил Ермаков</h3>
+                <p class="team-position">UI Designer</p>
+                <ul class="social-ul">
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon instagram">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-instagram-2"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon twitter">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-twitter"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon facebook">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-facebook"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="list social-item">
+                    <a href="#" class="social-link">
+                      <svg class="team-icon linkedin">
+                        <use
+                          href="./images/icomoon_final/symbol-defs.svg#icon-linkedin-1"
+                        ></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title clients">Постоянные клиенты</h2>
+          <ul class="list clients">
+            <li class="client-li">
+              <a href="#" class="link-company">
+                <svg class="icon-clients one">
+                  <use
+                    href="./images/icomoon_final/symbol-defs.svg#icon-client1"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-li">
+              <a href="#" class="link-company">
+                <svg class="icon-clients two">
+                  <use
+                    href="./images/icomoon_final/symbol-defs.svg#icon-client2"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-li">
+              <a href="#" class="link-company">
+                <svg class="icon-clients three">
+                  <use
+                    href="./images/icomoon_final/symbol-defs.svg#icon-client3"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-li">
+              <a href="#" class="link-company">
+                <svg class="icon-clients four">
+                  <use
+                    href="./images/icomoon_final/symbol-defs.svg#icon-client4"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-li">
+              <a href="#" class="link-company">
+                <svg class="icon-clients five">
+                  <use
+                    href="./images/icomoon_final/symbol-defs.svg#icon-client5"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client-li">
+              <a href="#" class="link-company">
+                <svg class="icon-clients six">
+                  <use
+                    href="./images/icomoon_final/symbol-defs.svg#icon-client6"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-back">
+      <div class="container footer">
+        <div class="footer-contacts">
+          <a class="logo" href="#"
+            ><span class="logo__logo-web">Web</span
+            ><span class="logo-studio--color-light">Studio</span></a
+          >
+
+          <address class="footer-contacts__address-block">
+            <ul class="footer-contacts__list list">
+              <li class="footer-contacts__item">
+                <a
+                  class="footer-contacts__address"
+                  href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0,+02000/@50.4265841,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="footer-contacts__item">
+                <a class="footer-contacts__info" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer-contacts__item">
+                <a class="footer-contacts__info" href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="footer-social container__footer-social">
+          <h4 class="footer-social__text appeal">Присоединяйтесь</h4>
+          <ul class="footer-social__social-list">
+            <li class="footer-social__icon list">
+              <a href="#" class="footer-social__instagram icon"></a>
+            </li>
+            <li class="footer-social__icon list">
+              <a href="#" class="footer-social__twitter icon"></a>
+            </li>
+            <li class="footer-social__icon list">
+              <a href="#" class="footer-social__facebook icon"></a>
+            </li>
+            <li class="footer-social__icon list">
+              <a href="#" class="footer-social__linkedin icon"></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-subscription">
+          <p class="footer-subscription__text appeal">
+            Подпишитесь на рассылку
+          </p>
+          <form class="footer-subscription__subscribe-form">
+            <label for="email-line" class="footer-subscription__email-line">
+            </label>
+            <input
+              class="footer-subscription__footer-email-line"
+              id="email-line"
+              type="email"
+              placeholder="E-mail"
+              name="email-line"
+            />
+            <button class="btn-subscription" type="submit">
+              Подписаться
+              <svg class="btn-subscription__icon" width="24" height="24">
+                <use
+                  href="./images/icomoon_final/symbol-defs.svg#icon-send-footer"
+                ></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close-btn" data-modal-close>
+          <svg class="modal-btn-img">
+            <use href="./images/icomoon_final/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <div class="modal-field">
+          <form class="modal-form"></form>
+          <div class="modal-field">
+            <label class="modal-label" for="user-name">Имя</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-name"
+                class="modal-input"
+                placeholder=""
+                id="user-name"
+              />
+              <svg class="modal-input-icon" width="18" height="18">
+                <use
+                  href="./images/icomoon_final/symbol-defs.svg#icon-person-black"
+                ></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label class="modal-label" for="user-phone">Телефон</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-phone"
+                class="modal-input"
+                placeholder=""
+                id="user-phone"
+              />
+              <svg class="modal-input-icon" width="18" height="18">
+                <use
+                  href="./images/icomoon_final/symbol-defs.svg#icon-phone-black"
+                ></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label class="modal-label" for="user-mail">Почта</label>
+            <div class="input-wrap">
+              <input
+                type="text"
+                name="user-mail"
+                class="modal-input"
+                placeholder=""
+                id="user-mail"
+              />
+              <svg class="modal-input-icon" width="18" height="18">
+                <use
+                  href="./images/icomoon_final/symbol-defs.svg#icon-email-black"
+                ></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label class="modal-label" for="user-comment">Комментарий</label>
+            <textarea
+              name="modal-text"
+              id="user-comment"
+              class="modal-text-area"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+        </div>
+        <div class="modal-field">
+          <input
+            type="checkbox"
+            name="privacy"
+            id="privicy"
+            class="input-check container__visually-hidden"
+          />
+          <label for="privicy" class="check-text">
+            <span>
+              <svg class="input-icon" width="16" height="15">
+                <use
+                  href="./images/icomoon_final/symbol-defs.svg#icon-icon-send"
+                ></use>
+              </svg>
+            </span>
+            Соглашаюсь с рассылкой и принимаю &nbsp;<a href=""
+              >Условия договора</a
+            ></label
+          >
+        </div>
+        <button type="submit" class="btn-modal">Отправить</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

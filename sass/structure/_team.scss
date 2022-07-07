@@ -1,0 +1,103 @@
+section.our-team-back {
+    background-color: var(--color-button-portfolio);
+}
+
+.list-our-team {
+    display: flex;
+}
+
+
+.item-team {
+    margin-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    &:last-child {
+            margin-right: 0px;
+        }
+}
+
+
+
+.item-team .team-h3-p {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.team-names {
+    margin-bottom: 10px;
+
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-position {
+    margin-top: 0px;
+    margin-bottom: 16px;
+
+    font-family: var(--main-font);
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-small-discription);
+}
+
+.projects-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-color);
+}
+
+.projects-description {
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    color: var(--color-small-discription);
+}
+
+.social-ul {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    justify-content: center;
+}
+
+.list.social-item {
+    margin-right: 10px;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    background-size: contain;
+    color: #afb1b8;
+    border-radius: 50%;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            background-color: var(--accent-color);
+            color: #ffffff;
+            }
+}
+
+.team-icon {
+    height: 20px;
+    fill: currentColor;
+    align-items: center;
+}
+

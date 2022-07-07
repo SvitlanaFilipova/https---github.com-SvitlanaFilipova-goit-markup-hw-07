@@ -1,0 +1,217 @@
+.footer-back {
+    background-color: var(--color-title);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container.footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.flex-footer {
+    margin-bottom: 9px;
+}
+
+.footer-contacts__item {
+    margin-bottom: 9px;
+    &:last-child {
+            margin-bottom: 0px;
+        }
+}
+
+.logo-studio--color-light {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-header);
+}
+
+.footer-contacts__address-block {
+    margin-top: 20px;
+}
+
+.footer-contacts__address {
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--color-header);
+    cursor: pointer;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        }
+}
+
+
+.footer-contacts__info {
+    font-family: var(--main-font);
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--color-footer-contacts);
+    cursor: pointer;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        }
+}
+
+
+.container__footer-social {
+    margin-left: 70px;
+}
+
+.footer-social__text, .footer-subscription__text {
+    margin-bottom: 20px;
+
+    color: var(--color-header);
+}
+
+.appeal {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.footer-social__social-list {
+    display: flex;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) linear;
+}
+
+.footer-social__icon {
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+.footer-social__instagram {
+    background-image: url(../images/social_links/instagram\ 2.svg);
+}
+
+.footer-social__facebook {
+    background-image: url(../images/social_links/facebook\ 1.svg);
+}
+
+.footer-social__linkedin {
+    background-image: url(../images/social_links/linkedin\ 1.svg);
+}
+
+.footer-social__twitter {
+    background-image: url(../images/social_links/twitter\ 1.svg);
+}
+
+.icon {
+    display: block;
+
+    width: 44px;
+    height: 44px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-image: cover;
+    background-position: 50% 50%;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .footer-social__social-list &:focus,
+    .footer-social__social-list &:hover {
+            background-color: var(--accent-color);
+        }
+}
+
+
+
+.footer-subscription {
+    margin-left: 93px;
+}
+
+.footer-subscription__subscribe-form {
+    display: flex;
+}
+
+.btn-subscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 200px;
+    height: 50px;
+
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #ffffff;
+
+    cursor: pointer;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            background-color: var(--color-button-mp);
+        }
+}
+
+.btn-subscription__icon {
+    margin-left: 10px;
+}
+
+
+.footer-subscription__footer-email-line {
+    height: 50px;
+    width: 358px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+
+    margin-right: 12px;
+
+    color: #ffffff;
+    padding-left: 16px;
+
+    &::placeholder {
+            padding: auto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.03em;
+    
+            color: rgba(255, 255, 255, 0.6);
+        }
+}
+
